@@ -1,0 +1,81 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.container{
+	width: 100%;
+
+
+}
+
+header{
+	height:34%;
+	width: 100%;
+}
+
+.perfil{
+	width: 50%;
+	height: 70%;
+	background-color:#1c2c4d;
+	text-align: center;
+	float:left;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: white;
+  
+
+	
+}
+
+
+ .seguidores{
+	width: 33.33%;
+	height: 20%;
+	background-color:#1c2c4d;
+	text-align: center;
+	float:left;
+	padding-top:25px;
+ 
+
+	
+}
+
+main{
+	width: 100%;
+	height: auto;
+}
+
+header div span{
+
+	color:white;
+	font-weight: bolder;
+
+}
+
+.perfil span{
+	margin-top: 25px;
+}
+
+header div img{
+	border-radius: 50%;
+	
+}
+
+
+ul{
+	list-style-type: none;
+	display: block;
+	color:Gray;
+	font-size:50px;
+	
+	font-weight: 800%;
+	
+}
+
+li{
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: Gray;
+	padding: 55px 20px;
+}
