@@ -38,7 +38,7 @@ header{
 	float:left;
 	padding-top:1em;
 	padding-bottom:1em;
-	font-size: calc(1em-1vh);
+	font-size: calc(1em - 5%);
  
 
 	
@@ -69,7 +69,7 @@ header div img{
 	border-width: 5px;
 	border-color: white;
 	height: calc(1em + 80%);
-	min-width: width: calc(1em + 18vw);
+	min-width: calc(1em + 1vw);
 	
 	
 }
@@ -92,3 +92,15 @@ li{
 	padding: 55px 20px;
 }
 
+
+@media(max-width:426px){
+
+	.seguidores{
+		font-size: 13px;
+	}
+
+	header div img{
+		width: 140px;
+	
+	}
+}
