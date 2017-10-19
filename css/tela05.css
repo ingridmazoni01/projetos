@@ -1,0 +1,31 @@
+*{
+	margin:0px;
+	padding: 0px;
+
+}
+
+.container{
+	background:linear-gradient(#e58e72, #8a6352, #6b4e3e);
+	width: 100%;
+	height: 100%;
+	text-align: center;
+
+
+}
+
+.container span{
+	color:white;
+	
+	font-size: 5em;
+	position: relative;
+	top:50%;
+
+}
+
+.form{
+	display: inline;
+	text-align: center;
+
+}
+
+
